@@ -55,12 +55,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <div style={labelStyle}>
-          AWS
-          <DiAws style={iconStyle} />
-        </div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <div style={labelStyle}>
           HTML
           <DiHtml5 style={iconStyle} />
         </div>

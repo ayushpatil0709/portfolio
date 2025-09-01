@@ -46,11 +46,15 @@ function AboutSections() {
         <div style={innerCardStyle}>
           <h3 className="purple">Education</h3>
           <div>
-            <strong>Vellore Institute of Technology</strong>, Chennai (2022 - 2026) – B.Tech (Computer Science and Engineering), GPA: 8.78
+            <strong>Vellore Institute of Technology</strong>, Chennai (2022 - 2026) – B.Tech (Computer Science and Engineering), GPA: 8.74
             <br />
-            <strong>Delhi Public School</strong>, Roorkee (2021 - 2022) – 12th Class, Percentage: 92
+            <strong>National Defense Academy</strong>, Pune (2020 - 2022) – Bachelor in Science(Computers), GPA: 8.5
             <br />
-            <strong>Delhi Public School</strong>, Roorkee (2019 - 2020) – 10th Class, Percentage: 94
+            <strong>College of Engineering</strong>, Pune (2019 - 2020) – Bachelor of Technology in Electrical Engineering, GPA: 8.3
+            <br />
+            <strong>Sri Chaitanya Junior College</strong>, Pune (2018 - 2019) – 12th Class, Percentage: 86
+            <br />
+            <strong>Podar International Schoo</strong>, Pune (2016 - 2017) – 10th Class, Percentage: 94
           </div>
         </div>
       </div>
@@ -70,10 +74,23 @@ function AboutSections() {
       <br />
       <div style={sectionStyle}>
         <div style={innerCardStyle}>
+          <h3 className="purple">Experience</h3>
+          <p>
+            <strong>Sovereign Kraft Enterprises</strong> – Worked in the Industrial Automation and LAN Networking Project of installation and commissioning
+for Industrial clients. Also, Worked with the supervision assistance of field design, erection and commissioning of ENMS system
+with server to IP Address networking and automation through DCS and PLC to HMI system.
+
+          </p>
+        </div>
+      </div>
+
+      <br />
+      <div style={sectionStyle}>
+        <div style={innerCardStyle}>
           <h3 className="purple">Professional Certificate</h3>
           <p>
-            <strong>AWS Cloud Practitioner (May 2025)</strong> – Demonstrated understanding of
-            core AWS services like EC2, S3, RDS, IAM, etc.
+            <strong>MERN Full Stack Certificate (May 2025)</strong> – Gained practical experience in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. 
+            Covered REST API development, authentication, and deployment best practices.
           </p>
         </div>
       </div>
@@ -84,27 +101,12 @@ function AboutSections() {
           <h3 className="purple">Courses</h3>
           <ul style={{ listStyle: "none", paddingLeft: 0 }}>
             <li key="react-course">
-              <strong>Developing Frontend Apps with React (Coursera)</strong>
+              <strong>Database and SQL for Python Online (Coursera)</strong>
               <br /><br />
             </li>
             <li key="sql-course">
               <strong>Databases and SQL for Data Science with Python (Coursera)</strong>
               
-              <br /><br />
-            </li>
-            <li key="backend-course">
-              <strong>Introduction to Back-End Development (Coursera)</strong>
-              
-              <br /><br />
-            </li>
-            <li key="python-course">
-              <strong>Complete Python Developer (Udemy)</strong>
-              
-              <br /><br />
-            </li>
-            <li key="aws-course">
-              <strong>AWS Solutions Architect (Udemy)</strong>
-             
               <br /><br />
             </li>
           </ul>

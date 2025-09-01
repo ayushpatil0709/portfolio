@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import anxiety from "../../Assets/Projects/anxiety.png";
-import facial from "../../Assets/Projects/facial.jpg";
+import child from "../../Assets/Projects/child.jpeg";
 import music from "../../Assets/Projects/music.jpg";
 
 
@@ -21,16 +21,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={facial}
+              imgPath={child}
               isBlog={false}
-              title="RealTime Facial Analysis System using AWS"
-              description="This project is a web-based facial recognition system that uses AWS Rekognition to detect and analyze 
-              faces in images uploaded by users. The frontend is built with HTML and Python (Flask), allowing users to upload images 
-              which are stored in an Amazon S3 bucket. An AWS Lambda function is triggered upon each upload, which sends the image to 
-              AWS Rekognition for facial detection. The detected face data, including unique face IDs and attributes, are stored in 
-              Amazon DynamoDB for future reference. The system can also match new images against previously indexed faces, making it 
-              suitable for applications like identity verification, attendance tracking, and secure access control. 
-              This serverless architecture ensures scalability, low cost, and real-time processing."
+              title="Child Safety Device using RFID"
+              description="The Child Safety Device is an RFID-based monitoring system designed to ensure the safety of children 
+              within a defined perimeter. Using UHF RFID tags worn by children and strategically placed RFID readers, the system 
+              continuously tracks their real-time location and provides instant alerts to caregivers if a child moves outside the 
+              safe boundary. The solution is scalable, non-intrusive, and ideal for environments such as schools, playgrounds, and 
+              daycare centers, combining hardware and software to deliver reliable safety monitoring. A paper detailing the system’s 
+              design and implementation has been filed for a conference, highlighting its potential impact in enhancing child safety 
+              through IoT and RFID technology."
               ghLink=""        
             />
           </Col>
@@ -60,7 +60,7 @@ function Projects() {
               current emotional state. Based on the detected emotion, the system then fetches a curated playlist from Spotify 
               using the Spotipy library and displays personalized song recommendations directly on the screen."
               ghLink=""
-              
+                 
             />
           </Col>
         </Row>

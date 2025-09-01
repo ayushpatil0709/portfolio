@@ -7,7 +7,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "./resume.css";
 
 // Correct pathing for GitHub Pages
-const pdfUrl = `${process.env.PUBLIC_URL}/preksha-chaudhary-resume.pdf`;
+const pdfUrl = `${process.env.PUBLIC_URL}/ayush-patil-resume.pdf`;
 pdfjs.GlobalWorkerOptions.workerSrc = `${process.env.PUBLIC_URL}/pdf.worker.min.js`;
 
 function ResumeNew() {

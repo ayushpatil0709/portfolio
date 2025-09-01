@@ -23,15 +23,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi! I’m <span className="purple">Preksha Chaudhary </span>
-            from <span className="purple">Roorkee, Uttarakhand</span>.
+            Hi! I’m <span className="purple">Ayush Patil </span>
+            from <span className="purple">Pune, Maharashtra</span>.
             <br />
             I am currently a fresher looking for an opportunity to start my career in tech.
             <br />
             <br />
-            A passionate and curious software developer with a strong foundation in web
-            development and a keen interest in building clean, responsive, and user-friendly
-            applications.
+            Entry level engineering student graduating in June 2026, keen in data and statistics and have an experience
+in army training as an officer cadet in the National Defense Academy. Enthusiast in problem solving, aptitude
+and statistics
             <br />
             <br />
             I am pursuing my <span className="purple">B.Tech in Computer Science and Engineering</span> at

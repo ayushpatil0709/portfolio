@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/preksha.jpg";
+import myImg from "../../Assets/ayush.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -24,19 +24,12 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Python, Javascript and React. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b>
-                
+                <b className="purple"> Python & SQL. </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">AWS</b> and
+              with <b className="purple">SQL</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -64,7 +57,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/ayushpatil0709"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,7 +67,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/prekshachaudhary05/"
+                  href="https://www.linkedin.com/in/ayush-0507-patil/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
